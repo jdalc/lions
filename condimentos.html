@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercato, todo barato</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="icon" type="image/png" href="img/Logo.jpeg">
+</head>
+<body>
+    <header class="main-header">
+        <div class=" container container--flex">
+            <div class="main-header__container">
+                <h1 class="main-header__title">MERCATO</h1>
+                <span class="icon-menu" id="btn-menu"><i class="fas fa-ellipsis-v"></i></span>
+                <nav class="main-nav" id="main-nav">
+                    <ul class="menu">
+                        <li class="menu__item"><a href="index.html" class="menu__link">Inicio</a></li>
+                        <li class="menu__item"><a href="ofertas.html" class="menu__link">Ofertas</a></li>
+                        <li class="menu__item"><a href="productos.html" class="menu__link">Productos</a>
+                            <ul class="menu2">
+                                <li class="menu__item"><a href="arroz.html" class="menu__link">Arroz</a></li>
+                                <li class="menu__item"><a href="aceites.html" class="menu__link">Aceites</a></li>
+                                <li class="menu__item"><a href="menestras.html" class="menu__link">Menestras</a></li>
+                                <li class="menu__item"><a href="azucar.html" class="menu__link">Azúcar</a></li>
+                                <li class="menu__item"><a href="lacteos.html" class="menu__link">Lácteos</a></li>
+                                <li class="menu__item"><a href="conservas.html" class="menu__link">Conservas</a></li>
+                                <li class="menu__item"><a href="fideos.html" class="menu__link">Fideos</a></li>
+                                <li class="menu__item"><a href="condimentos.html" class="menu__link">Condimentos</a></li>
+                                <li class="menu__item"><a href="cremas.html" class="menu__link">Cremas</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu__item"><a href="conocenos.html" class="menu__link">Conócenos</a></li>
+                        <li class="menu__item"><a href="contáctanos.html" class="menu__link">Contáctanos</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="main-header__container">
+                <span class="main-header__txt">Necesitas ayuda</span>
+                <p class="main-header__txt"><i class="icon-phone fas fa-phone-alt"></i> Llama al (062) 620584</p>
+            </div>
+            <ul>
+                <li class="submenu">
+                    <a href="" class="main-header__btn">Mi carrito <i class="icon-car fas fa-shopping-cart"></i>
+                    <div id="carrito">
+                        <table id="lista-carrito" class="u-full-widt">
+                            <thead>
+                                <tr>
+                                    <th>Imagen</th>
+                                    <th>Nombre</th>
+                                    <th>Precio</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                        <a href="#" id="vaciar-carrito" class="button u-full-widt">Vaciar Carrito</a>
+                    </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main class="main">
+        <div class="conteiner">
+            <h1 class="main-title">Condimentos</h1>
+            <h2 class="main-title">Sazonadores</h2>
+            <section class="container-products" id="lista-products">
+                <div class="product">
+                    <img src="img/Ajinomoto-1k.png" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Sazonador Ajinomoto 1kg</h3>
+                        <span class="producto__price">s/. 13.00</span>
+                    </div>
+                    <a href="#"
+                    class="u-full-width button-primary button input agregar-carrito"><i class="icon-shop fas fa-cart-plus"></i>
+                    </a>
+                </div>
+                <div class="product">
+                    <img src="img/Ajinomoto-20.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Sazonador Ajinomoto 8g</h3>
+                        <span class="producto__price">s/. 0.20</span>
+                    </div>
+                    <a href="#"
+                    class="u-full-width button-primary button input agregar-carrito"><i class="icon-shop fas fa-cart-plus"></i>
+                    </a>
+                </div>
+                <div class="product">
+                    <img src="img/Ajinomoto-250.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Sazonador Ajinomoto 250g</h3>
+                        <span class="producto__price">s/. 4.20</span>
+                    </div>
+                    <a href="#"
+                    class="u-full-width button-primary button input agregar-carrito"><i class="icon-shop fas fa-cart-plus"></i>
+                    </a>
+                </div>
+                <div class="product">
+                    <img src="img/Ajinomoto-50.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Sazonador Ajinomoto 24g</h3>
+                        <span class="producto__price">s/. 0.50</span>
+                    </div>
+                    <a href="#"
+                    class="u-full-width button-primary button input agregar-carrito"><i class="icon-shop fas fa-cart-plus"></i>
+                    </a>
+                </div>
+                <div class="product">
+                    <img src="img/Ajinomoto-250.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Sazonador Ajinomoto 500g</h3>
+                        <span class="producto__price">s/. 7.00</span>
+                    </div>
+                    <a href="#"
+                    class="u-full-width button-primary button input agregar-carrito"><i class="icon-shop fas fa-cart-plus"></i>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
+    <main class="main">
+        <div class="conteiner">
+            <h2 class="main-title">Condimentos molidos</h2>
+            <section class="container-products" id="lista-products">
+                <div class="product">
+                    <img src="img/Ajo.png" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Ajo molido Ajo Siba 24g</h3>
+                        <span class="producto__price">s/. 0.70</span>
+                    </div>
+                    <a href="#"
+                    class="u-full-width button-primary button input agregar-carrito"><i class="icon-shop fas fa-cart-plus"></i>
+                    </a>
+                </div>
+                <div class="product">
+                    <img src="img/Amarillin.webp" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Ají amarillo molido Aarillín Ajinomoto 31.2g</h3>
+                        <span class="producto__price">s/. 1.00</span>
+                    </div>
+                    <a href="#"
+                    class="u-full-width button-primary button input agregar-carrito"><i class="icon-shop fas fa-cart-plus"></i>
+                    </a>
+                </div>
+                <div class="product">
+                    <img src="img/Panca.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Ají panca molida Panquita</h3>
+                        <span class="producto__price">s/. 0.90</span>
+                    </div>
+                    <a href="#"
+                    class="u-full-width button-primary button input agregar-carrito"><i class="icon-shop fas fa-cart-plus"></i>
+                    </a>
+                </div>
+                <div class="product">
+                    <img src="img/Culantrito.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Culantro y espinaca molido Culantrito</h3>
+                        <span class="producto__price">s/. 0.90</span>
+                    </div>
+                    <a href="#"
+                    class="u-full-width button-primary button input agregar-carrito"><i class="icon-shop fas fa-cart-plus"></i>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
+    <main class="main">
+        <div class="conteiner">
+            <h2 class="main-title">Caldos</h2>
+            <section class="container-products" id="lista-products">
+                <div class="product">
+                    <img src="img/carne-cubo.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Caldo cubito Maggi sabor carne 75.2g</h3>
+                        <span class="producto__price">s/. 0.50</span>
+                    </div>
+                    <a href="#"
+                    class="u-full-width button-primary button input agregar-carrito"><i class="icon-shop fas fa-cart-plus"></i>
+                    </a>
+                </div>
+                <div class="product">
+                    <img src="img/Pollo-cubo.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Caldo cubito Maggi sabor carne 75.2g</h3>
+                        <span class="producto__price">s/. 0.20</span>
+                    </div>
+                    <a href="#"
+                    class="u-full-width button-primary button input agregar-carrito"><i class="icon-shop fas fa-cart-plus"></i>
+                    </a>
+                </div>
+                <div class="product">
+                    <img src="img/Carne.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Caldo Doña Gusta sabor carne 7g</h3>
+                        <span class="producto__price">s/. 0.20</span>
+                    </div>
+                    <a href="#"
+                    class="u-full-width button-primary button input agregar-carrito"><i class="icon-shop fas fa-cart-plus"></i>
+                    </a>
+                </div>
+                <div class="product">
+                    <img src="img/Costilla.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Caldo Doña Gusta sabor costillas de res 7g</h3>
+                        <span class="producto__price">s/. 0.20</span>
+                    </div>
+                    <a href="#"
+                    class="u-full-width button-primary button input agregar-carrito"><i class="icon-shop fas fa-cart-plus"></i>
+                    </a>
+                </div>
+                <div class="product">
+                    <img src="img/Pez.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Caldo Doña Gusta sabor pescado 7g</h3>
+                        <span class="producto__price">s/. 0.20</span>
+                    </div>
+                    <a href="#"
+                    class="u-full-width button-primary button input agregar-carrito"><i class="icon-shop fas fa-cart-plus"></i>
+                    </a>
+                </div>
+                <div class="product">
+                    <img src="img/Pollo.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Caldo Doña Gusta sabor a gallina 7g</h3>
+                        <span class="producto__price">s/. 0.20</span>
+                    </div>
+                    <a href="#"
+                    class="u-full-width button-primary button input agregar-carrito"><i class="icon-shop fas fa-cart-plus"></i>
+                    </a>
+                </div>
+                <div class="product">
+                    <img src="img/Tocino.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Caldo Doña Gusta sabor a Tocino 7g</h3>
+                        <span class="producto__price">s/. 0.20</span>
+                    </div>
+                    <a href="#"
+                    class="u-full-width button-primary button input agregar-carrito"><i class="icon-shop fas fa-cart-plus"></i>
+                    </a>
+                </div>
+                <div class="product">
+                    <img src="img/Deli.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Deli Arroz 12g</h3>
+                        <span class="producto__price">s/. 0.20</span>
+                    </div>
+                    <a href="#"
+                    class="u-full-width button-primary button input agregar-carrito"><i class="icon-shop fas fa-cart-plus"></i>
+                    </a>
+                </div>
+                <div class="product">
+                    <img src="img/Chifa.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Mezcla para Chifa</h3>
+                        <span class="producto__price">s/. 0.50</span>
+                    </div>
+                    <a href="#"
+                    class="u-full-width button-primary button input agregar-carrito"><i class="icon-shop fas fa-cart-plus"></i>
+                    </a>
+                </div>
+                <div class="product">
+                    <img src="img/Ablanda.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Ablandador de carne Ablandasazón</h3>
+                        <span class="producto__price">s/. 0.20</span>
+                    </div>
+                    <a href="#"
+                    class="u-full-width button-primary button input agregar-carrito"><i class="icon-shop fas fa-cart-plus"></i>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
+    <main class="main">
+        <div class="conteiner">
+            <h2 class="main-title">Especias</h2>
+            <section class="container-products" id="lista-products"> 
+                <div class="product">
+                    <img src="img/Orégano.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Orégano Sazón Lopesa</h3>
+                        <span class="producto__price">s/. 0.20</span>
+                    </div>
+                    <a href="#"
+                    class="u-full-width button-primary button input agregar-carrito"><i class="icon-shop fas fa-cart-plus"></i>
+                    </a>
+                </div>
+                <div class="product">
+                    <img src="img/Palillo.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Palillo Sazón Lopesa</h3>
+                        <span class="producto__price">s/. 0.20</span>
+                    </div>
+                    <a href="#"
+                    class="u-full-width button-primary button input agregar-carrito"><i class="icon-shop fas fa-cart-plus"></i>
+                    </a>
+                </div>
+                <div class="product">
+                    <img src="img/Panca-picante.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Panca sin picante Sazón Lopesa</h3>
+                        <span class="producto__price">s/. 0.30</span>
+                    </div>
+                    <a href="#"
+                    class="u-full-width button-primary button input agregar-carrito"><i class="icon-shop fas fa-cart-plus"></i>
+                    </a>
+                </div>
+                <div class="product">
+                    <img src="img/Tuco.jfif" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Orégano Sazón Lopesa</h3>
+                        <span class="producto__price">s/. 0.40</span>
+                    </div>
+                    <a href="#"
+                    class="u-full-width button-primary button input agregar-carrito"><i class="icon-shop fas fa-cart-plus"></i>
+                    </a>
+                </div>
+                <div class="product">
+                    <img src="img/Comino.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Orégano Sazón Lopesa</h3>
+                        <span class="producto__price">s/. 0.40</span>
+                    </div>
+                    <a href="#"
+                    class="u-full-width button-primary button input agregar-carrito"><i class="icon-shop fas fa-cart-plus"></i>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
+    <main class="main">
+        <div class="conteiner">
+            <h2 class="main-title">Mezclas para apanadar</h2>
+            <section class="container-products" id="lista-products">
+                <div class="product">
+                    <img src="img/Apanado-aji-apa.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Mezcla para apanar Ajinomix apanado 96g</h3>
+                        <span class="producto__price">s/. 2.00</span>
+                    </div>
+                    <a href="#"
+                    class="u-full-width button-primary button input agregar-carrito"><i class="icon-shop fas fa-cart-plus"></i>
+                    </a>
+                </div>
+                <div class="product">
+                    <img src="img/Apanado-aji-cro.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Mezcla para apanar Ajinomix crocante 96g</h3>
+                        <span class="producto__price">s/. 2.00</span>
+                    </div>
+                    <a href="#"
+                    class="u-full-width button-primary button input agregar-carrito"><i class="icon-shop fas fa-cart-plus"></i>
+                    </a>
+                </div>
+                <div class="product">
+                    <img src="img/Apanado-aji-pic.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Mezcla para apanar Ajinomix picante 96g</h3>
+                        <span class="producto__price">s/. 2.00</span>
+                    </div>
+                    <a href="#"
+                    class="u-full-width button-primary button input agregar-carrito"><i class="icon-shop fas fa-cart-plus"></i>
+                    </a>
+                </div>
+                <div class="product">
+                    <img src="img/Apanado-mag.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Mezcla para apanar Maggi</h3>
+                        <span class="producto__price">s/. 2.00</span>
+                    </div>
+                    <a href="#"
+                    class="u-full-width button-primary button input agregar-carrito"><i class="icon-shop fas fa-cart-plus"></i>
+                    </a>
+                </div>
+                <div class="product">
+                    <img src="img/Apanado-bell-apa.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Mezcla para apanar Bell´s crispy</h3>
+                        <span class="producto__price">s/. 2.00</span>
+                    </div>
+                    <a href="#"
+                    class="u-full-width button-primary button input agregar-carrito"><i class="icon-shop fas fa-cart-plus"></i>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
+    <main class="main">
+        <div class="conteiner">
+            <h2 class="main-title">Vinagres</h2>
+            <section class="container-products" id="lista-products">
+                <div class="product">
+                    <img src="img/VinagreB-1.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Vigare blanco Venturo botella 100ml</h3>
+                        <span class="producto__price">s/. 1.00</span>
+                    </div>
+                    <a href="#"
+                    class="u-full-width button-primary button input agregar-carrito"><i class="icon-shop fas fa-cart-plus"></i>
+                    </a>
+                </div>
+                <div class="product">
+                    <img src="img/VinagreB-1L.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Vigare blanco Firme sachet 1L</h3>
+                        <span class="producto__price">s/. 3.50</span>
+                    </div>
+                    <a href="#"
+                    class="u-full-width button-primary button input agregar-carrito"><i class="icon-shop fas fa-cart-plus"></i>
+                    </a>
+                </div>
+                <div class="product">
+                    <img src="img/VinagreB-350.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Vigare blanco Venturo botella 350ml</h3>
+                        <span class="producto__price">s/. 3.80</span>
+                    </div>
+                    <a href="#"
+                    class="u-full-width button-primary button input agregar-carrito"><i class="icon-shop fas fa-cart-plus"></i>
+                    </a>
+                </div>
+                <div class="product">
+                    <img src="img/VinagreN-1.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Vigare negro Venturo botella 100ml</h3>
+                        <span class="producto__price">s/. 1.00</span>
+                    </div>
+                    <a href="#"
+                    class="u-full-width button-primary button input agregar-carrito"><i class="icon-shop fas fa-cart-plus"></i>
+                    </a>
+                </div>
+                <div class="product">
+                    <img src="img/VinagreN-1L.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Vigare negro Firme sachet 1L</h3>
+                        <span class="producto__price">s/. 3.50</span>
+                    </div>
+                    <a href="#"
+                    class="u-full-width button-primary button input agregar-carrito"><i class="icon-shop fas fa-cart-plus"></i>
+                    </a>
+                </div>
+                <div class="product">
+                    <img src="img/VinagreN-350.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Vigare negro Venturo 350mL</h3>
+                        <span class="producto__price">s/. 3.80</span>
+                    </div>
+                    <a href="#"
+                    class="u-full-width button-primary button input agregar-carrito"><i class="icon-shop fas fa-cart-plus"></i>
+                    </a>
+                </div>
+                <div class="product">
+                    <img src="img/VinagreN-Flo.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Vigare negro Florida botella 650mL</h3>
+                        <span class="producto__price">s/. 3.20</span>
+                    </div>
+                    <a href="#"
+                    class="u-full-width button-primary button input agregar-carrito"><i class="icon-shop fas fa-cart-plus"></i>
+                    </a>
+                </div>
+                <div class="product">
+                    <img src="img/VinagreB-Flo.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Vigare blanco Florida botella 650mL</h3>
+                        <span class="producto__price">s/. 3.20</span>
+                    </div>
+                    <a href="#"
+                    class="u-full-width button-primary button input agregar-carrito"><i class="icon-shop fas fa-cart-plus"></i>
+                    </a>
+                </div>
+                <div class="product">
+                    <img src="img/VinagreN-1-fir.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Vigare negro Firma botella 100mL</h3>
+                        <span class="producto__price">s/. 1.00</span>
+                    </div>
+                    <a href="#"
+                    class="u-full-width button-primary button input agregar-carrito"><i class="icon-shop fas fa-cart-plus"></i>
+                    </a>
+                </div>
+                <div class="product">
+                    <img src="img/VinagreB-1-fir.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Vigare blanco Firma botella 100mL</h3>
+                        <span class="producto__price">s/. 1.00</span>
+                    </div>
+                    <a href="#"
+                    class="u-full-width button-primary button input agregar-carrito"><i class="icon-shop fas fa-cart-plus"></i>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
+    <main class="main">
+        <div class="conteiner">
+            <h2 class="main-title">Sillaos  </h2>
+            <section class="container-products" id="lista-products">
+                <div class="product">
+                    <img src="img/Sillao-aji-1.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Sillao Ajinosillao botella 1L</h3>
+                        <span class="producto__price">s/. 7.00</span>
+                    </div>
+                    <a href="#"
+                    class="u-full-width button-primary button input agregar-carrito"><i class="icon-shop fas fa-cart-plus"></i>
+                    </a>
+                </div>
+                <div class="product">
+                    <img src="img/Sillao-aji-650.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Sillao Ajinosillao botella 650ml</h3>
+                        <span class="producto__price">s/. 3.80</span>
+                    </div>
+                    <a href="#"
+                    class="u-full-width button-primary button input agregar-carrito"><i class="icon-shop fas fa-cart-plus"></i>
+                    </a>
+                </div>
+                <div class="product">
+                    <img src="img/Sillao-aji-280.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Sillao Ajinosillao botella 280ml</h3>
+                        <span class="producto__price">s/. 2.60</span>
+                    </div>
+                    <a href="#"
+                    class="u-full-width button-primary button input agregar-carrito"><i class="icon-shop fas fa-cart-plus"></i>
+                    </a>
+                </div>
+                <div class="product">
+                    <img src="img/Sillao-a1.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Sillao A1 botella 125ml</h3>
+                        <span class="producto__price">s/. 1.20</span>
+                    </div>
+                    <a href="#"
+                    class="u-full-width button-primary button input agregar-carrito"><i class="icon-shop fas fa-cart-plus"></i>
+                    </a>
+                </div>
+                <div class="product">
+                    <img src="img/Sillao-kik-500.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Sillao Kiko botella 500ml</h3>
+                        <span class="producto__price">s/. 3.50</span>
+                    </div>
+                    <a href="#"
+                    class="u-full-width button-primary button input agregar-carrito"><i class="icon-shop fas fa-cart-plus"></i>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
+<br>
+<h2 class="main-title">Redes sociales</h2>
+<footer id="contacto" class="icon-redes">
+    <div class="social-media">
+        <a href="https://www.facebook.com/Il-Mercato-113246583699477" class="social-media-icon">
+            <i class="fab fa-facebook"></i>
+        </a>
+
+        <a href="https://www.instagram.com/mercato_hua/" class="social-media-icon">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://wa.me/51901808994?text=Mercato!!%20quiero%20un%pedido" class="social-media-icon">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>   
+</div>
+<br>
+    <footer class="main-footer">
+        <div class="footer__section">
+            <h2 class="footer__title">Nosotros</h2>
+            <p class="footer__txt">Nos fundamentamos en el arte del servicio y atención cliente, siempre fieles a la idea que un cliente feliz es un cliente que va a regresar.</p>
+        </div>
+        <div class="footer__section">
+            <h2 class="footer__title">Locación :</h2>
+            <p class="footer__txt">Entre Jr. Huallayco y Jr. 14 de agosto, Huánuco, Huánuco, Huánuco.</p>
+        </div>
+        <div class="footer__section">
+        <h2 class="footer__title">Contáctanos</h2>
+            <p class="footer__txt">Celular : +51 901 808 994</p>
+            <p class="footer__txt">Teléfono : (062) 620584</p>
+            <p class="footer__txt">Email : todobarato.mercato@gmail.com</p>
+        </div>
+        <div class="footer__section">
+            <h2 class="footer__title">Menú</h2>
+            <a href="index.html" class="footer__link">Inicio</a>
+            <a href="" class="footer__link">Ofertas</a>
+            <a href="conocenos.html" class="footer__link">Conócenos</a>
+            <a href="contáctanos.html" class="footer__link">Contáctanos</a>
+        </div>
+        <p class="copy">© 2021 Mercato. Derechos reservados</p>
+        </footer>
+    <script src="js/slider.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/carrito.js"></script>
+</body>
+</html>
